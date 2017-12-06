@@ -5,6 +5,7 @@ var Route = ReactRouter.Route;
 var Switch = ReactRouter.Switch;
 var Nav = require('../Nav/Nav');
 var Home = require('../Home/Home');
+var LoginPage = require('../LoginPage/LoginPage.js');
 require('./App.css');
 
 
@@ -15,10 +16,11 @@ class App extends React.Component {
       <div className='container'>
       <Nav />
       <Switch>
-      <Route exact path="/" component={Home}/>
-      <Route render={function () {
-        return <errorMessage>Page Not Found :( </errorMessage>
-      }} />
+        <Route exact path="/" component={Home}/>
+        <Route exact path="/login" component={LoginPage}/>
+        <Route render={function () {
+          return <errorMessage>Page Not Found :( </errorMessage>
+        }} />
       </Switch>
       </div>
       </Router>

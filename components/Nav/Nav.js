@@ -10,8 +10,8 @@ function Nav(){
         </NavLink>
       </li>
       <li>
-        <NavLink activeClassName='active' to="/battle">
-          Battle
+        <NavLink activeClassName='active' to="/login">
+          Login
         </NavLink>
       </li>
       <li>

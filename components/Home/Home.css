@@ -1,14 +1,14 @@
-body {
-    padding: 50px;
-    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-    background-color: black;
+.skyline{
+    display: block;
+    margin: auto;
+    width: 70%;
+    padding:1px;
+    border:3px solid skyblue;
 }
 
-h1{
-    text-align: center;
-    color: white;
-    font: 30px "fantasy";
-    font-style: italic;
-    font-weight: bold;
-    font-stretch: ultra-expanded;
+.flag{
+    display: block;
+    margin: auto;
+    width: 20%;
+    padding:50px;
 }
