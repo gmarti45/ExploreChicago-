@@ -1,0 +1,14 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font: 30px "fantasy";
+    font-style: italic;
+    font-weight: bold;
+    font-stretch: ultra-expanded;
+}
