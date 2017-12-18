@@ -23,7 +23,8 @@
   to { transform: rotate(360deg); }
 }
 
-errorMessage{
+error-message{
   color: skyblue;
   text-align: center;
   font: 50px "Chalkduster"; }
+

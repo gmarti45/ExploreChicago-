@@ -6,9 +6,8 @@ class Home extends React.Component {
   render(){
     return (
       <div className= "homeContainer">
-        <h1>Explore Chicago</h1>
-        <img src={require('./buckinghamFountain.jpg')} class="skyline" />
-        <img src={require('./chicagoFlag.png')} class="flag" />
+        <img src={require('./buckinghamFountain.jpg')} className="skyline" />
+        <img src={require('./chicagoFlag.png')} className="flag" />
       </div>
     )
   }
