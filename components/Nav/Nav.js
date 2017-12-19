@@ -15,6 +15,11 @@ function Nav(){
         </NavLink>
       </li>
       <li>
+        <NavLink activeClassName='active' to="/museums">
+          Museums
+        </NavLink>
+      </li>
+      <li>
         <NavLink activeClassName='active' to="/popular">
           Popular
         </NavLink>

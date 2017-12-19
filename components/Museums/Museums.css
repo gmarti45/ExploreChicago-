@@ -1,0 +1,19 @@
+.skyline{
+    display: block;
+    margin: auto;
+    width: 70%;
+    padding:1px;
+    border:3px solid skyblue;
+}
+
+.museumColumn{
+    display: block;
+    margin: auto;
+    width: 40%;
+    padding:50px;
+    float:left;
+}
+
+
+
+

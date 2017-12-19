@@ -24,3 +24,13 @@ h1{
 li {
   list-style-type: none;
 }
+
+.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a {
+  color: skyblue;
+  text-decoration: none;
+}

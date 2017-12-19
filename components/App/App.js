@@ -6,6 +6,7 @@ var Switch = ReactRouter.Switch;
 var Nav = require('../Nav/Nav');
 var Home = require('../Home/Home');
 var LoginPage = require('../LoginPage/LoginPage.js');
+var Museums = require('../Museums/Museums.js');
 require('./App.css');
 
 
@@ -19,6 +20,7 @@ class App extends React.Component {
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route exact path="/login" component={LoginPage}/>
+        <Route exact path="/museums" component={Museums}/>
         <Route render={function () {
           return <error-message>Page Not Found :( </error-message>
         }} />
